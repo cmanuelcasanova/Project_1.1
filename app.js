@@ -6,7 +6,10 @@ input.addEventListener( 'keyup' ,(e) => {
         
 })
 
+
+
 console.log("Status")
+console.log("Test2")
 
 
 
