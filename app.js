@@ -6,7 +6,7 @@ input.addEventListener( 'keyup' ,(e) => {
         
 })
 
-
+console.log("Status")
 
 
 
