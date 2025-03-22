@@ -11,6 +11,7 @@ input.addEventListener( 'keyup' ,(e) => {
 console.log("Status")
 console.log("Test2")
 console.log("Test 3")
+console.log("Test 4")
 
 
 
