@@ -1,17 +1,27 @@
 const form = document.getElementById('form')
 const input = document.getElementById('input')
 
-input.addEventListener( 'keyup' ,(e) => {
-            console.log(e.key);
+
+
+
+
+
+const url = 'https://jsonplaceholder.typicode.com/users'
+
+
+
+fetch(url)
+      .then(response => response.json())
+      .then(data => {
         
-})
+        data.forEach(element => {
+            console.log(element.name)
+        });
+    
 
+      }
+    
+    
+    )
 
-
-console.log("Status")
-console.log("Test2")
-console.log("Test 3")
-console.log("Test 4")
-
-
-
+     
